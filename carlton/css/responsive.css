@@ -1,0 +1,66 @@
+ @media (max-width: 768px){
+     .navbar-color{
+        background: linear-gradient(90deg, rgba(255,255,255,1) 72%,
+         rgba(0,83,123,1) 35%);
+     }
+     .navbar-toggler{
+        position: absolute;
+        right: 0;
+        z-index: 4;
+        top: 0;
+     }
+     #navbarDropdown{
+        position: absolute;
+        right: 0px;
+        top: 0;
+        margin: auto;
+        z-index: 2;
+        background-color: #00537B;
+     }
+     nav li{
+         padding-left: 15px;
+     }
+     .welcome-section .welcome-text{
+         margin-bottom:30px;
+     }
+     .welcome-section .carlton-carousel{
+        text-align: center;
+        margin: auto;
+     }
+     .trips-carousel{
+        text-align: center;
+        margin: auto;
+     }
+     .latest-news{
+         flex-wrap: wrap;
+     }
+     .news-card{
+         padding-bottom: 5px;
+     }
+     .testimonial {
+        margin-top: 15px;
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .testimonial-carousel{
+        width: 100%;
+        height: inherit;
+    }
+    form .form-text, form .form-input{
+        padding-bottom: 5px;
+    }
+    form .subscribe-btn{
+        padding-top: 5px;
+    }
+    .followUs{
+        text-align: center;
+    }
+    .followus-content{
+        padding-top: 3px;
+    }
+
+
+ }

@@ -1,0 +1,273 @@
+.philosopher-30{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.philosopher-60{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+.philosopher-24{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.lato-14{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.lato-18{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.lato-20{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.lato-28{
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+}
+
+
+.blue{
+    color:#00537B
+}
+.blue-bg{
+    background-color:#00537B
+}
+.white{
+    color:#fff
+}
+.white-bg{
+    background-color:#fff
+}
+.gray{
+    color:#707070
+}
+.gray-bg{
+    background-color:#707070
+}
+.lightblue{
+    color: #EEF9FF
+}
+.lightblue-bg{
+    background-color: #EEF9FF
+}
+ .navbar-color{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(0,83,123,1) 35%);
+ }
+ #navbarDropdown{
+     flex-wrap:wrap;
+     justify-content: flex-end;
+ }
+ nav a{
+     color:#ffff;
+     font-family: 'Philosopher', sans-serif;
+     font-size: 18px;
+     font-weight: bold;
+ }
+ li{
+     margin-right:40px;
+ }
+ .center-text{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+ }
+ .owl-carousel.carousel-overlay .item{
+    position: relative;
+ }
+ .owl-carousel.carousel-overlay .item:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 83, 123, 0.5);
+ }
+.owl-carousel.owl_nav-none .owl-nav {
+            display: none;
+ }
+.owl-carousel.owl_nav-block .owl-nav {
+             display: block;
+             position: absolute;
+             top: 0;
+             bottom: 0;
+             margin: auto;
+             height: 30%;
+             width: 100%;
+             font-size: 70px;
+             color:white;
+ }
+.owl-carousel.owl_nav-block .owl-nav .owl-prev {
+            position: absolute;
+            left: 8%;
+ } 
+.owl-carousel.owl_nav-block .owl-nav .owl-next {
+            position: absolute;
+            right: 8%;
+ } 
+.carlton-carousel{
+            position: relative;
+ }
+.carlton-carousel::before{
+            content: "";
+            position: absolute;
+            left:10%;
+            top:-5%;
+            border: 10px solid #00537B;
+            width:inherit;
+            height: 110%;
+ }
+ .owl-carousel.owl_dots-none .owl-dots {
+          display: none;
+ }
+.owl-carousel.owl_dots-block .owl-dots{
+            display: block;
+ }
+.owl-carousel .owl-dots{
+            position: absolute;
+            bottom: 10px;
+            width: inherit;
+            text-align: center;
+ } 
+.owl-carousel .owl-dots .owl-dot{
+            border: 1px solid #ccc;
+            width: 25px;
+            margin: 0 3px;
+ }  
+.owl-carousel .owl-dots .owl-dot.active{
+            border: 1px solid #fff;
+ }
+.tripsSection{
+     background: linear-gradient(to right top, #00537b6b, hsla(200, 100%, 24%, 1.47)),url(../images/carlton.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position: center center;
+ }
+.tripsSection .owl-carousel.owl_nav-block .owl-nav {
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            height: 20%;
+            width: 100%;
+            font-size: 30px;
+            color:white;
+ }
+.tripsSection .owl-carousel.owl_nav-none .owl-nav {
+           display: none;
+ }
+       .tripsSection .owl-carousel.owl_nav-block .owl-nav .owl-prev {
+           position: absolute;
+           left: 0;
+       } 
+       .tripsSection .owl-carousel.owl_nav-block .owl-nav .owl-next {
+           position: absolute;
+           right: 0;
+         } 
+         tbody tr:first-child, tbody tr:nth-of-type(2), tbody tr:nth-of-type(3) td:nth-of-type(2), tbody tr:nth-of-type(3) td:nth-of-type(3){
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+    
+         }
+         p{
+             position: relative;
+         }
+         tbody tr p:before{
+            content: "";
+            position: absolute;
+            border: 1px solid rgba(255,255,255,0.2);
+            right: -10%;
+            border-left: none;
+            width: 10px;
+            height: 63%;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+         }
+         thead .allTrips-btn{
+             border: 1px solid #707070;
+         }
+         .latest-news a{
+             border: 1px solid #707070;
+         }
+         .news-card img{
+            float:left;
+        }
+        .news-card{
+            height:100%;
+        }
+        .card-body{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .testimonial{
+            width: 100%;
+            height:100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        .testimonial-carousel{
+            width: 100%;
+            height: 100%;
+        }
+           .news-card img , .news-card .card{
+               height: 264px;
+           }
+           .testimonials-carousel .item{
+               position: relative;
+           }
+           form{
+               justify-content: space-between;
+           }
+           form input{
+               width: 100%!important;
+           }
+         footer{
+         background-color: #00537B;
+         color:#fff; 
+        }
+      .air-temp, .water-temp, .followus, .copyright, .display-flex{
+       display: flex;
+       flex-direction: row;
+       }
+     .degree, .contact a span{
+      margin-left: 10px;
+      color:#fff;
+    }
+.air-temp span:last-child{
+    display: block;
+}
+ .display-flex span:last-child , .display-flex > a{
+     position: absolute;
+     right: 0;
+ }
+   footer .copyright .display-flex{
+    justify-content: space-between;
+} 
+
+
+   
+   
+   
+
+ 
+ 
+
+
+   
+  

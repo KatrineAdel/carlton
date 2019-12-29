@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+  <g id="insta_icon" data-name="insta icon" transform="translate(-840 -2433)">
+    <g id="Group_316" data-name="Group 316" transform="translate(846.546 2439.545)">
+      <path id="Path_272" data-name="Path 272" d="M27.255,34.209a6.955,6.955,0,1,1,6.955-6.955A7.062,7.062,0,0,1,27.255,34.209Zm0-12.029a5.075,5.075,0,1,0,5.075,5.075A5.054,5.054,0,0,0,27.255,22.18Z" transform="translate(-20.3 -20.3)" fill="#fff"/>
+    </g>
+    <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="0.94" cy="0.94" rx="0.94" ry="0.94" transform="translate(860.318 2437.987)" fill="#fff"/>
+    <g id="Group_317" data-name="Group 317" transform="translate(840 2433)">
+      <path id="Path_273" data-name="Path 273" d="M36.118,43.7H24.282A7.616,7.616,0,0,1,16.7,36.118V24.282A7.616,7.616,0,0,1,24.282,16.7H36.118A7.616,7.616,0,0,1,43.7,24.282V36.118A7.74,7.74,0,0,1,36.118,43.7ZM24.282,18.549a5.762,5.762,0,0,0-5.733,5.733V36.118a5.762,5.762,0,0,0,5.733,5.733H36.118a5.762,5.762,0,0,0,5.733-5.733V24.282a5.762,5.762,0,0,0-5.733-5.733Z" transform="translate(-16.7 -16.7)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

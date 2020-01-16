@@ -1,0 +1,99 @@
+
+.boat-carousel .owl-carousel.owl_nav-block .owl-nav {
+    color: #00537B;
+}
+.boat-carousel .owl-carousel .item {
+    height: 600px;
+}
+.boat-carousel .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+
+}
+ .boat-carousel .carousel-caption{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+}
+ .boat-carousel .carousel-caption .title-font{
+    font-size: 24px;
+    color: #fff;
+}
+ .boat-carousel .carousel-caption .overlay{
+    background: rgba(0, 83, 123, 0.8);
+    width: 33%;
+    height: 130px;
+    align-items: center;
+    margin: 0 10px;
+   }
+
+ .boat-carousel .svg-width{
+    margin-right: 20px;
+ }
+ .boat-section p.content-font{
+     font-size: 15px;
+     margin-top: 33px;
+ }
+ .boat-content a{
+     margin-top:33px;
+ }
+ .owl-carousel.right-dots .owl-dots{
+    position: absolute;
+    bottom: 35px;
+    width: inherit;
+    text-align: end;
+    right: 40px;
+} 
+.owl-carousel.left-dots .owl-dots{
+    position: absolute;
+    bottom: 35px;
+    width: inherit;
+    left: 40px;
+} 
+.owl-carousel.img-carousel img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.img-carousel.owl-carousel .item{
+    height: 600px;
+}
+ .boat-section  tbody tr:first-child, tbody tr:nth-of-type(2), tbody tr:nth-of-type(3),
+  tbody tr:nth-of-type(3) td:nth-of-type(2), tbody tr:nth-of-type(3) td:nth-of-type(3), 
+  tbody tr:nth-of-type(4), tbody tr:nth-of-type(5) td:nth-of-type(2), 
+  tbody tr:nth-of-type(5) td:nth-of-type(3){
+    border-bottom: 1px solid rgba(112,112,112,0.3);
+ }
+ .border-non{
+     border: none!important;
+ }
+ td.border-non{
+    border-top: none!important;
+}
+.boat-section tbody tr p:before{
+    content: "";
+    position: absolute;
+    border: 1px solid rgba(112,112,112,0.3);
+    right: -10%;
+    border-left: none;
+    width: 10px;
+    height: 63%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+ }
+  .table-width{
+      width:500px;
+  }
+  .salon-section table{
+    float: right;
+}
+

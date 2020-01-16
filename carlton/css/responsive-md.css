@@ -1,4 +1,4 @@
- @media (max-width: 768px){
+ @media(max-width: 768px){
      .navbar-color{
         background: linear-gradient(90deg, rgba(255,255,255,1) 72%,
          rgba(0,83,123,1) 35%);
@@ -20,12 +20,16 @@
      nav li{
          padding-left: 15px;
      }
+     .welcome-section{
+         text-align: center;
+     }
      .welcome-section .welcome-text{
          margin-bottom:30px;
      }
      .welcome-section .carlton-carousel{
         text-align: center;
         margin: auto;
+        margin-top: 40px;
      }
      .trips-carousel{
         text-align: center;
@@ -50,17 +54,36 @@
         height: inherit;
     }
     form .form-text, form .form-input{
-        padding-bottom: 5px;
+        padding-bottom: 5px!important;
     }
     form .subscribe-btn{
-        padding-top: 5px;
+        padding-top: 5px!important;
     }
-    .followUs{
-        text-align: center;
-    }
+
     .followus-content{
         padding-top: 3px;
     }
-
+    .boat-section{
+        text-align: center;
+    }
+    .boat-section table{
+        margin-top: 20px;
+    }
+    .boat-carousel .display-flex{
+        display: flex;
+       flex-direction: row;
+    }
+    .boat-carousel .carousel-caption .overlay {
+        height: 80px;
+    }
+    .boat-carousel .svg-width {
+        margin-right: 6px;
+    }
+    .img-carousel.owl-carousel .item {
+        height: 350px;
+    }
+    .table-width{
+        width: auto;
+    }
 
  }

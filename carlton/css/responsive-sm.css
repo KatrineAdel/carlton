@@ -1,0 +1,38 @@
+@media (max-width: 425px){
+    .main-carousel .title-font p{
+        font-size: 12px!important;
+        margin: 0px
+    }
+    .main-carousel .title-font strong{
+        font-size: 30px!important;
+    }
+    .navbar-toggler {
+        position: absolute;
+        right: -18px;
+        z-index: 4;
+        top: 0;
+    }
+    .latest-news-header.display-flex{
+        display: grid;
+    }
+    .news-card.display-flex{
+        flex-wrap: wrap;
+    }
+    .news-card img{
+        width: 100%;
+        height: auto;
+    }
+    .testimonial{
+        margin-top: 80px;
+    }
+    .testimonials-carousel .center-text p:first-child{
+        margin: 0;
+        padding-top: 13px;
+    }
+    .boat-carousel .title-font{
+        font-size: 20px!important;
+    }
+    .title-font{
+        font-size: 23px;
+    }
+}

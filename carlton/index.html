@@ -12,36 +12,36 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href="css/carltonStyle.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/responsive-md.css" rel="stylesheet">
+    <link href="css/responsive-sm.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Carlton-Liveaboard</title>
 
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="Carlton">
     <meta name="application-name" content="Carlton">
     <meta name="msapplication-TileColor" content="#ffc40d">
-    <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="images/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
 </head>
 
 <body>
     <!-- NavBar Section -->
-    <div class="navbar-color">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg">
-                <div class="logo col-md-4">
-                    <img src="images/Logo.svg" />
-                </div>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <div class="logo col-md-4 text-lg-right white-bg">
+                <img src="images/Logo.svg" />
+            </div>
+            <div class="blue-bg">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown">
-                    <!-- <span class="navbar-toggler-icon"></span> -->
                     <img src="images/menu-icon.svg" />
                 </button>
                 <div class="collapse navbar-collapse" id="navbarDropdown">
@@ -60,7 +60,7 @@
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">The Boat</a>
+                            <a class="nav-link" href="boat.html">The Boat</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
@@ -83,36 +83,38 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </div>
+
 
     <!-- Main Section -->
     <div class="main-carousel">
-        <div class="one-item owl-carousel carousel-overlay owl_nav-block">
+        <div class="one-item owl-carousel owl_dots-none overlay owl_nav-block">
             <div class="item">
                 <img src="images/mainBg.jpg">
-                <div class="carousel-caption philosopher white center-text">
-                    <p class="philosopher-30">ENJOY THE BEST OF</p>
-                    <strong class="philosopher-60">THE RED SEA</strong>
+                <div class="carousel-caption title-font center-text">
+                    <p>ENJOY THE BEST OF</p>
+                    <strong>THE RED SEA</strong>
                 </div>
             </div>
             <div class="item">
                 <img src="images/mainBg.jpg">
-                <div class="carousel-caption philosopher white center-text">
-                    <p class="philosopher-30">ENJOY THE BEST OF</p>
-                    <strong class="philosopher-60">THE RED SEA</strong>
+                <div class="carousel-caption title-font center-text">
+                    <p>ENJOY THE BEST OF</p>
+                    <strong>THE RED SEA</strong>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- Welcome Section -->
     <section class="container welcome-section py-5">
         <div class="row">
-            <div class="col-lg-6 welcome-text blue">
-                <p class="philosopher-30">Welcome to Carlton Liveaboard</p>
-                <p class="lato-14">
+            <div class="col-lg-6">
+                <p class="title-font">Welcome to Carlton Liveaboard</p>
+                <p class="content-font">
                     M/Y Carlton was built in 2004 and launched on July 2005. M/Y Carlton was designed exclusively for those who can appreciate
                     it. It has 4 decks separated in lower deck have 6 double cabins with twin bed and one cabin with king
                     size bed, dive deck have all diving gears and tanks, salon and restaurant, kitchen and crew cabins, Middle
@@ -120,10 +122,10 @@
                     a queen size bed, and bridge equipped with radar, depth sonar, radio transmitter VHF, GPS and navigation
                     system.
                 </p>
-                <a href="#" class="btn carlton-btn lato blue-bg white font-14">M/Y Carlton</a>
-                <a href="#" class="btn schedual-btn lato gray-bg white font-14">Schedule</a>
+                <a href="#" class="btn-wide btn btn-radius-non btn-blue">M/Y Carlton</a>
+                <a href="#" class="btn-wide btn btn-radius-non btn-gray">Schedule</a>
             </div>
-            <div class="one-item owl-carousel owl_dots-block carlton-carousel col-md-6">
+            <div class="one-item-dots owl-carousel center-dots owl_dots-block carlton-carousel col-md-6">
                 <div class="item">
                     <img src="images/carlton.jpg">
                 </div>
@@ -142,12 +144,12 @@
         <section class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="two-item trips-carousel owl-carousel owl_nav-block">
+                    <div class="two-item trips-carousel owl-carousel owl_dots-none owl_nav-block">
                         <div class="item">
                             <a href="#" class="btn">
                                 <div class="card">
                                     <img src="images/shark.jpg" class="card-img-top">
-                                    <div class="card-body lato-20">One Week Safari</div>
+                                    <div class="card-body content-font">One Week Safari</div>
                                 </div>
                             </a>
                         </div>
@@ -155,7 +157,7 @@
                             <a href="#" class="btn">
                                 <div class="card">
                                     <img src="images/manta.jpg" class="card-img-top">
-                                    <div class="card-body lato-20">Mini Safari</div>
+                                    <div class="card-body content-font">Mini Safari</div>
                                 </div>
                             </a>
                         </div>
@@ -163,46 +165,46 @@
                             <a href="#" class="btn">
                                 <div class="card">
                                     <img src="images/manta.jpg" class="card-img-top">
-                                    <div class="card-body lato-20">Mini Safari</div>
+                                    <div class="card-body content-font">Mini Safari</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 p-0">
                     <table class="table table-borderless">
-                        <thead class="white">
+                        <thead>
                             <tr>
                                 <th colspan="2">
-                                    <p class="philosopher-30">Upcoming Trips</p>
+                                    <p class="title-font">Upcoming Trips</p>
                                 </th>
                                 <th></th>
                                 <th>
-                                    <a href="#" class="btn allTrips-btn blue-bg white lato-14">See All Trips</a>
+                                    <a href="#" class="btn-ghost btn btn-radius-non">See All Trips</a>
                                 </th>
                             </tr>
                         </thead>
-                        <tbody class="lato-14">
+                        <tbody class="content-font">
                             <tr>
-                                <td rowspan="2" class="white">
+                                <td rowspan="2">
                                     <p>
                                         <span>16 Dec</span>
                                         <br/>
                                         <br/>
                                         <span>33 Dec</span>
                                 </td>
-                                <td class="white">M/Y Carlton</td>
-                                <td class="white">640EUR</td>
+                                <td>M/Y Carlton</td>
+                                <td>640EUR</td>
                                 <td rowspan="2">
-                                    <a href="#" class="btn BookNow white-bg">Book Now</a>
+                                    <button class="btn btn-radius-non btn-white">Book Now</button>
                                 </td>
                             </tr>
-                            <tr class="white">
+                            <tr>
                                 <td>Northern Read Sea</td>
                                 <td>18Pax Left</td>
                             </tr>
                             <tr>
-                                <td rowspan="2" class="white">
+                                <td rowspan="2">
                                     <p>
                                         <span>24 Dec</span>
                                         <br/>
@@ -210,13 +212,13 @@
                                         <span>26 Dec</span>
                                     </p>
                                 </td>
-                                <td class="white">M/Y Carlton</td>
-                                <td class="white">465EUR</td>
+                                <td>M/Y Carlton</td>
+                                <td>465EUR</td>
                                 <td rowspan="2">
-                                    <a href="#" class="btn BookNow white-bg">Book Now</a>
+                                    <button class="btn btn-radius-non btn-white">Book Now</button>
                                 </td>
                             </tr>
-                            <tr class="white">
+                            <tr>
                                 <td>SS Thistlegorm</td>
                                 <td>10Pax Left</td>
                             </tr>
@@ -228,14 +230,13 @@
     </div>
 
     <!-- Latest News Section -->
-    <div class="latestNews-bg lightblue-bg">
+    <div class="lightblue-bg">
         <div class="container py-5">
-            <div class="row">
-                <div class="latest-news display-flex">
+                <div class="latest-news display-flex row">
                     <div class="col-lg-7">
-                        <div class="display-flex pb-2">
-                            <p class="blue philosopher-30">Latest News</p>
-                            <a href="#" class="btn gray lato-14">See All News</a>
+                        <div class="latest-news-header display-flex pb-2">
+                            <p class="title-font">Latest News</p>
+                            <a href="#" class="btn-ghost btn btn-radius-non">See All News</a>
                         </div>
                         <div class="display-flex news-card">
                             <img src="images/whale.jpg">
@@ -243,26 +244,26 @@
                                 <div class="card-body">
                                     <small class="arial-16">June 1, 2018</small>
                                     <br/>
-                                    <p class="blue lato-24">The rare blue whale spotted in the Red Sea</p>
+                                    <p class="content-font">The rare blue whale spotted in the Red Sea</p>
                                     <br/>
-                                    <a href="#" class="btn white blue-bg lato font-14">Read More</a>
+                                    <a href="#" class="btn btn-radius-non btn-blue">Read More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial col-lg-5">
-                        <p class="blue philosopher-30">Testimonials</p>
-                        <div class="one-item owl-carousel carousel-overlay owl_dots-block">
+                        <p class="title-font">Testimonials</p>
+                        <div class="one-item-dots owl-carousel overlay owl_dots-block">
                             <div class="testimonials-carousel">
-                                <div class="item white">
+                                <div class="item content-font">
                                     <img src="images/testimonialsBg.jpg" />
-                                    <div class="center-text">
-                                        <p class="lato-18">John Doe</p>
-                                        <div class="display-flex lato-14">
+                                    <div class="center-text content-font px-3">
+                                        <p>John Doe</p>
+                                        <div class="display-flex">
                                             <span>Germany</span>
                                             <span>5 December 2019</span>
                                         </div>
-                                        <p class="lato-14">
+                                        <p>
                                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
                                             aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
                                             et ea rebum.
@@ -273,117 +274,115 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
 
     <!-- Subscrib Section -->
     <div class="container py-5">
-        <div class="row">
-            <form class="form-inline w-100">
-                <div class="form-group form-text col-lg-3">
-                    <p class="lato-14">
-                        Sign up to our newsletter for occassional updates, exclusive offers and deals.
-                    </p>
-                </div>
-                <div class="form-group form-input col-lg-4">
-                    <input type="text" placeholder="Name" class="form-control" />
-                </div>
-                <div class="form-group form-input col-lg-4">
-                    <input type="email" placeholder="Email" class="form-control" />
-                </div>
-                <div class="form-group subscribe-btn col-1">
-                    <a href="#" class="btn white blue-bg lato-14">Subscribe</a>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <!-- Footer Section -->
-    <footer class="pt-5 white">
-        <div class="container">
             <div class="row">
-                <div class="weather col-lg-4 col-sm-6">
-                    <p class="philosopher-24">Read Sea Weather</p>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="air-temp">
-                                <div>
-                                    <img src="images/sun-icon.svg" />
-                                </div>
-                                <div class="degree">
-                                    <p class="lato-28">28°C</p>
-                                    <small class="lato-14">Air Temp</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="water-temp">
-                                <div>
-                                    <img src="images/water-icon.svg" />
-                                </div>
-                                <div class="degree lato">
-                                    <p class="lato-28">24°C</p>
-                                    <small class="lato-14">Water Temp</small>
-                                </div>
-                            </div>
-                        </div>
+                <form class="form-inline w-100">
+                    <div class="form-group content-font col-lg-4">
+                        <p class="content-font">
+                            Sign up to our newsletter for occassional updates, exclusive offers and deals.
+                        </p>
                     </div>
-                    <small class="lato-14">It is recommended to wear Drysuit or 7 mm long wetsuit</small>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <p class="philosopher-24">Contact Info</p>
-                    <div class="contact lato-14">
-                        <a href="#" class="btn">
-                            <img src="images/GPS-icon.svg" />
-                            <span>Sharm el-Sheikh, South Sinai, Egypt</span>
-                        </a>
-                        <a href="#" class="btn">
-                            <img src="images/phone-icon.svg" />
-                            <span>+2 069 366 5411</span>
-                            <span>+2 069 366 5412</span>
-                        </a>
-                        <a href="#" class="btn">
-                            <img src="images/message-icon.svg" />
-                            <span>info@carltonliveaboard.com</span>
-                        </a>
+                    <div class="form-group form-input py-2 col-lg-3">
+                        <input type="text" placeholder="Name" class="form-control" />
                     </div>
-                </div>
-                <div class="col-lg-4 followUs">
-                    <p class="philosopher-24">Follow Us</p>
-                    <div class="followus-content py-3">
-                        <a href="#" class="btn">
-                            <img src="images/whatsapp-icon.svg" />
-                        </a>
-                        <a href="#" class="btn">
-                            <img src="images/facebook-icon.svg" />
-                        </a>
-                        <a href="#" class="btn">
-                            <img src="images/insta-icon.svg" />
-                        </a>
-                        <a href="#" class="btn">
-                            <img src="images/skype-icon.svg" />
-                        </a>
-                        <a href="#" class="btn">
-                            <img src="images/youtube-icon.svg" />
-                        </a>
+                    <div class="form-group form-input py-2 col-lg-3">
+                        <input type="email" placeholder="Email" class="form-control" />
                     </div>
-                </div>
-            </div>
-            <div class="copyright">
-                <div class="display-flex w-100 lato-14">
-                    <div>
-                        <p>© 2019 Carlton Liveaboard. All Rights Reserved</p>
+                    <div class="form-group subscribe-btn col-2">
+                        <button class="btn btn-radius-non btn-blue">SUBSCRIBE</button>
                     </div>
-                    <div>
-                        <p>Powered by innovix solutions</p>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
-    </footer>
-
-
+    
+        <!-- Footer Section -->
+        <footer class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="weather col-lg-4 pb-5">
+                        <p class="title-font">Read Sea Weather</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="air-temp">
+                                    <div>
+                                        <img src="images/sun-icon.svg" />
+                                    </div>
+                                    <div class="degree">
+                                        <p class="content-font">28°C</p>
+                                        <small class="content-font">Air Temp</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="water-temp">
+                                    <div>
+                                        <img src="images/water-icon.svg" />
+                                    </div>
+                                    <div class="degree">
+                                        <p class="content-font">24°C</p>
+                                        <small class="content-font">Water Temp</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <small class="lato-14">It is recommended to wear Drysuit or 7 mm long wetsuit</small>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="title-font">Contact Info</p>
+                        <div class="contact content-font">
+                            <a href="#" class="btn">
+                                <img src="images/GPS-icon.svg" />
+                                <span>Sharm el-Sheikh, South Sinai, Egypt</span>
+                            </a>
+                            <a href="#" class="btn">
+                                <img src="images/phone-icon.svg" />
+                                <span>+2 069 366 5411</span>
+                                <span>+2 069 366 5412</span>
+                            </a>
+                            <a href="#" class="btn">
+                                <img src="images/message-icon.svg" />
+                                <span>info@carltonliveaboard.com</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 followUs pt-5">
+                        <p class="title-font">Follow Us</p>
+                        <div class="followus-content py-3">
+                            <a href="#" class="btn">
+                                <img src="images/whatsapp-icon.svg" />
+                            </a>
+                            <a href="#" class="btn">
+                                <img src="images/facebook-icon.svg" />
+                            </a>
+                            <a href="#" class="btn">
+                                <img src="images/insta-icon.svg" />
+                            </a>
+                            <a href="#" class="btn">
+                                <img src="images/skype-icon.svg" />
+                            </a>
+                            <a href="#" class="btn">
+                                <img src="images/youtube-icon.svg" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="display-flex w-100 mt-5 content-font">
+                        <div>
+                            <p>© 2019 Carlton Liveaboard. All Rights Reserved</p>
+                        </div>
+                        <div>
+                            <a href="#" target="_blank">Powered by innovix solutions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -394,6 +393,18 @@
                 $(".collapse").collapse('toggle');
             });
             $('.one-item').owlCarousel({
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+            $('.one-item-dots').owlCarousel({
                 autoplay: true,
                 margin: 10,
                 responsiveClass: true,

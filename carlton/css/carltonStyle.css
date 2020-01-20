@@ -39,7 +39,9 @@ body{
 .lightblue-bg{
     background-color: #EEF9FF;
 }
-
+.offblue-bg{
+    background-color: #71BADE;
+}
 /*------------- buttons -------------*/
 .btn-wide{
     width:35%;

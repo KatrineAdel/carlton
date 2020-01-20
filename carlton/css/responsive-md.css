@@ -85,5 +85,7 @@
     .table-width{
         width: auto;
     }
-
+    .padding-top{
+        padding-top: 50px;
+    }
  }

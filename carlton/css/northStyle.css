@@ -1,0 +1,53 @@
+.title-font , .content-font{
+  color: white;
+}
+ ul {
+    list-style: none;
+  }
+  .north-section ul li i {
+    color: #71BADE;
+  }
+  .north-panner{
+    background: linear-gradient(to right top, #00537b6b, hsla(200, 100%, 24%, 1.47)),url(../images/north-panner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    text-align: center;
+  }
+  .north-panner{
+    height: 300px;
+    position: relative
+  }
+  .north-panner .title-font{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+  }
+  .north-section .title-font{
+    color: #00537B;
+  }
+  .north-section .content-font , form .content-font{
+    color: #474747;
+  }
+  .north-panner i{
+    padding-top: 12px;
+  }
+  .img-map img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .north-carousel .owl-carousel .item{
+    width: 355px;
+ }
+ .north-carousel .owl-carousel.center-dots .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  right: 65px;
+}
+.north-carousel-text p{
+  width: 355px;
+  height: 265px;
+  overflow-y: scroll;
+}

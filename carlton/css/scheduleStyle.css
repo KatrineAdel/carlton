@@ -1,0 +1,75 @@
+.schedule-panner{
+    background: linear-gradient(to right top, #00537b6b, hsla(30, 50%, 10%, 1.47)),url(../images/schedule-panner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    text-align: center;
+  }
+  .schedule-panner{
+    height: 300px;
+    position: relative
+  }
+  .schedule-panner .title-font{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    color: white;
+  }
+  .schedule-panner .content-font{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 18px;
+  }
+  .schedule-panner i{
+    padding-top: 5px;
+    font-size: 18px;
+  }
+  .route-search{
+      padding-top: 70px;
+  }
+  .note i{
+      font-size: 53px;
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    font-size: 14px;
+    text-align: center;
+}
+table tbody tr{
+    background-color: white;
+}
+table .font-size i{
+    font-size: 10px;
+}
+table th{
+    font-weight: normal;
+}
+.modal-header{
+    display: block!important;
+    text-align: center;
+}
+.green{
+    color: #00C800;
+}
+.modal-header{
+    margin: 0 30px;
+}
+.modal-body .display-flex{
+    justify-content: space-around;
+}
+.modal-body{
+    padding-bottom: 0;
+}
+.modal-body p i{
+    color: #71BADE;
+    font-size: 17px;
+}
+.modal-footer{
+    border-top: 0;
+    padding-top: 0;
+}

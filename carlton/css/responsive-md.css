@@ -59,7 +59,9 @@
     form .subscribe-btn{
         padding-top: 5px!important;
     }
-
+    .followus{
+        padding-top: 50px;
+    }
     .followus-content{
         padding-top: 3px;
     }
@@ -83,9 +85,64 @@
         height: 350px;
     }
     .table-width{
-        width: auto;
+        width: 100%;
     }
     .padding-top{
         padding-top: 50px;
+    }
+    table.font-size{
+        font-size: 12px;
+    }
+    .padding-bottom{
+        padding-bottom: 20px;
+    }
+    .contact-line-info span {
+        padding-left: 10px;
+    }
+    .contact-line-info {
+        padding-left: 20px;
+    }
+    .row-0{
+        margin: 0;
+        padding: 0;
+    }
+    .padding-margin{
+        padding: 1rem 0px!important;
+        margin: 1rem 0px!important;
+    }
+    .owl-carousel.right-dots .owl-dots{
+        right: 0;
+    } 
+    .owl-carousel.left-dots .owl-dots{
+        left: 0;
+    } 
+    .north-panner .title-font, .schedule-panner .title-font,.contact-us-panner .title-font{
+        right: 20px;
+    }
+    .north-panner .content-font, .schedule-panner .content-font, .contact-us-panner .content-font{
+        right: 20px;
+    }
+    .width-inherit{
+        width: inherit;
+    }
+    .overflow{
+        max-width: 100%;
+        overflow: auto;
+    }
+    a.current:link, a.current:visited {
+        color: burlywood;
+        border: none;
+    }
+ }
+
+ @media(width: 768px){
+     .north-carousel{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .north-carousel .owl-carousel, .north-carousel-text{
+        max-width: 300px;
     }
  }

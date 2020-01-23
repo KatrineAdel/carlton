@@ -1,0 +1,61 @@
+.contact-us-panner{
+    background: linear-gradient(to right top, #00537b6b, hsla(30, 30%, 17%, 1.47)),url(../images/contact-us-panner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    text-align: center;
+  }
+  .contact-us-panner{
+    height: 300px;
+    position: relative
+  }
+  .contact-us-panner .title-font{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    color: #ffff;
+  }
+  .contact-us-panner .content-font{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    color: #ffff;
+    font-size: 18px;
+  }
+  .contact-us-panner i{
+    padding-top: 5px;
+    font-size: 18px;
+  }
+  .map-bg{
+    background: url(../images/map.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+  }
+  .map-bg .title-font, .contact-line-info span{
+    color: #fff;
+  }
+  .map-bg .container{
+    height:720px;
+     display: flex;
+    align-items: center;
+  }
+  .contact-line{
+    height: 385px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-line-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: inherit;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .contact-line-info span{
+    padding-left: 25px;
+  }

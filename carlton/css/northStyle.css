@@ -24,30 +24,39 @@
     left: 0;
     right: 0;
   }
+  .north-panner .content-font{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+  }
+  .north-panner i{
+    padding-top: 5px;
+    font-size: 18px;
+  }
   .north-section .title-font{
     color: #00537B;
   }
   .north-section .content-font , form .content-font{
     color: #474747;
   }
-  .north-panner i{
-    padding-top: 12px;
-  }
   .img-map img{
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .north-carousel .owl-carousel .item{
-    width: 355px;
+  .north-carousel .owl-carousel, .north-carousel-text{
+    max-width: 355px;
  }
- .north-carousel .owl-carousel.center-dots .owl-dots {
-  position: absolute;
-  bottom: 10px;
-  right: 65px;
-}
 .north-carousel-text p{
-  width: 355px;
   height: 265px;
   overflow-y: scroll;
+}
+.north-carousel-text p::-webkit-scrollbar{
+  width: 5px;
+}
+.north-carousel-text p::-webkit-scrollbar-thumb{
+  background: white;
+  border-radius: 15px;
 }

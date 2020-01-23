@@ -1,0 +1,30 @@
+.daily-diving-panner{
+    background: linear-gradient(to right top, #00537b6b, hsla(30, 50%, 10%, 1.47)),url(../images/daily-diving-panner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    text-align: center;
+  }
+  .daily-diving-panner{
+    height: 300px;
+    position: relative
+  }
+  .daily-diving-panner .title-font{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    color: #ffff;
+  }
+  .daily-diving-panner .content-font{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    color: #ffff;
+    font-size: 18px;
+  }
+  .daily-diving-panner i{
+    padding-top: 5px;
+    font-size: 18px;
+  }

@@ -8,7 +8,7 @@
     }
     .navbar-toggler {
         position: absolute;
-        right: -18px;
+        right: 0;
         z-index: 4;
         top: 0;
     }
@@ -34,5 +34,14 @@
     }
     .title-font{
         font-size: 23px;
+    }
+    .carlton-carousel::before {
+        left: 0;
+    }   
+    .copyright .display-flex {
+        flex-direction: column;
+    }
+    .copyright p{
+        padding-top: 5px;
     }
 }
